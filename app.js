@@ -13,3 +13,4 @@ rl.question("Masukkan nama anda : ", (name) => {
 rl.on("close", () => {
   process.exit(0);
 });
+// tes github action
