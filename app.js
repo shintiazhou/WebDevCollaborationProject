@@ -10,6 +10,11 @@ rl.question("Masukkan nama anda : ", (name) => {
   rl.close();
 });
 
+rl.question("Masukkan Kota anda : ", (kota) => {
+  console.log(`KOTA ${kota}, `);
+  rl.close();
+});
+
 rl.on("close", () => {
   process.exit(0);
 });
