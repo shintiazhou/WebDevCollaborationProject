@@ -14,6 +14,11 @@ rl.question("Masukkan Kota anda : ", (kota) => {
   console.log(`KOTA ${kota}, `);
   rl.close();
 });
+rl.question("Masukkan Password : ", (Password) => {
+  console.log(`KOTA ${Password}, `);
+  rl.close();
+});
+
 
 rl.on("close", () => {
   process.exit(0);
